@@ -1,0 +1,550 @@
+2023-10-09 18:08:58,081 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=2, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:08:58,081 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:09:28,381 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=2, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:09:28,381 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:09:28,973 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:09:55,194 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=2, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:09:55,195 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:09:55,781 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:10:00,726 [trainer_dp.py:111] INFO Initial a new model...
+2023-10-09 18:10:29,307 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=2, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:10:29,307 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:10:29,883 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:10:34,837 [trainer_dp.py:111] INFO Initial a new model...
+2023-10-09 18:10:34,839 [train.py:53] INFO round 0
+2023-10-09 18:10:34,839 [train.py:54] INFO num of epoches: 70
+2023-10-09 18:10:34,839 [train.py:55] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 18:10:34,839 [trainer_dp.py:180] INFO learning rate of epoch 0: 0.000300.
+2023-10-09 18:10:39,682 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:10:39,682 [trainer_dp.py:232] INFO Epoch: [0][0/97602]	Time 4.843 (4.843)	Data 0.707 (0.707)	Loss 1.027 (1.027)	Acc_Rate 0.833 (0.833)	
+2023-10-09 18:10:40,412 [trainer_dp.py:276] INFO Test: [0/13364]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:10:40,746 [trainer_dp.py:276] INFO Test: [10/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:41,101 [trainer_dp.py:276] INFO Test: [20/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:41,462 [trainer_dp.py:276] INFO Test: [30/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:41,782 [trainer_dp.py:276] INFO Test: [40/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:42,139 [trainer_dp.py:276] INFO Test: [50/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:42,471 [trainer_dp.py:276] INFO Test: [60/13364]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:10:42,895 [trainer_dp.py:276] INFO Test: [70/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:43,242 [trainer_dp.py:276] INFO Test: [80/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:43,574 [trainer_dp.py:276] INFO Test: [90/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:43,901 [trainer_dp.py:276] INFO Test: [100/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:44,265 [trainer_dp.py:276] INFO Test: [110/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:44,615 [trainer_dp.py:276] INFO Test: [120/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:44,946 [trainer_dp.py:276] INFO Test: [130/13364]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:10:45,295 [trainer_dp.py:276] INFO Test: [140/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:45,631 [trainer_dp.py:276] INFO Test: [150/13364]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:10:45,973 [trainer_dp.py:276] INFO Test: [160/13364]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:10:46,290 [trainer_dp.py:276] INFO Test: [170/13364]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:10:46,651 [trainer_dp.py:276] INFO Test: [180/13364]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:10:47,004 [trainer_dp.py:276] INFO Test: [190/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:10:47,316 [trainer_dp.py:276] INFO Test: [200/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:47,667 [trainer_dp.py:276] INFO Test: [210/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:48,032 [trainer_dp.py:276] INFO Test: [220/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:48,373 [trainer_dp.py:276] INFO Test: [230/13364]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:10:48,712 [trainer_dp.py:276] INFO Test: [240/13364]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:10:49,062 [trainer_dp.py:276] INFO Test: [250/13364]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:10:49,398 [trainer_dp.py:276] INFO Test: [260/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:49,748 [trainer_dp.py:276] INFO Test: [270/13364]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:10:50,092 [trainer_dp.py:276] INFO Test: [280/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:50,457 [trainer_dp.py:276] INFO Test: [290/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:10:50,792 [trainer_dp.py:276] INFO Test: [300/13364]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:11:31,204 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=2, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:11:31,205 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:11:31,788 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:11:36,726 [trainer_dp.py:111] INFO Initial a new model...
+2023-10-09 18:11:36,728 [train.py:53] INFO round 0
+2023-10-09 18:11:36,728 [train.py:54] INFO num of epoches: 70
+2023-10-09 18:11:36,728 [train.py:55] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 18:11:36,728 [trainer_dp.py:180] INFO learning rate of epoch 0: 0.000300.
+2023-10-09 18:11:41,611 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:11:41,612 [trainer_dp.py:232] INFO Epoch: [0][0/97602]	Time 4.883 (4.883)	Data 0.756 (0.756)	Loss 1.027 (1.027)	Acc_Rate 0.833 (0.833)	
+2023-10-09 18:11:42,341 [trainer_dp.py:276] INFO Test: [0/13364]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:11:42,686 [trainer_dp.py:276] INFO Test: [10/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:11:43,039 [trainer_dp.py:276] INFO Test: [20/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:11:43,396 [trainer_dp.py:276] INFO Test: [30/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:11:43,741 [trainer_dp.py:276] INFO Test: [40/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:11:44,080 [trainer_dp.py:276] INFO Test: [50/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:11:44,452 [trainer_dp.py:276] INFO Test: [60/13364]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:11:44,862 [trainer_dp.py:276] INFO Test: [70/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:11:45,211 [trainer_dp.py:276] INFO Test: [80/13364]	 Time 0	 Acc 1.0
+2023-10-09 18:11:45,525 [trainer_dp.py:276] INFO Test: [90/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:11:45,857 [trainer_dp.py:276] INFO Test: [100/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:11:46,195 [trainer_dp.py:276] INFO Test: [110/13364]	 Time 0	 Acc 0.0
+2023-10-09 18:12:11,528 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=2, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:12:11,528 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:12:12,110 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:12:17,042 [trainer_dp.py:111] INFO Initial a new model...
+2023-10-09 18:12:17,044 [train.py:53] INFO round 0
+2023-10-09 18:12:17,044 [train.py:54] INFO num of epoches: 70
+2023-10-09 18:12:17,044 [train.py:55] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 18:12:17,044 [trainer_dp.py:180] INFO learning rate of epoch 0: 0.000300.
+2023-10-09 18:12:21,870 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:21,870 [trainer_dp.py:232] INFO Epoch: [0][0/97602]	Time 4.826 (4.826)	Data 0.606 (0.606)	Loss 1.027 (1.027)	Acc_Rate 0.833 (0.833)	
+2023-10-09 18:12:23,093 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:23,094 [trainer_dp.py:232] INFO Epoch: [0][10/97602]	Time 0.159 (0.550)	Data 0.011 (0.058)	Loss 0.842 (1.076)	Acc_Rate 0.667 (0.500)	
+2023-10-09 18:12:24,379 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:24,379 [trainer_dp.py:232] INFO Epoch: [0][20/97602]	Time 0.131 (0.349)	Data 0.001 (0.031)	Loss 0.868 (1.044)	Acc_Rate 0.500 (0.460)	
+2023-10-09 18:12:25,612 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:25,612 [trainer_dp.py:232] INFO Epoch: [0][30/97602]	Time 0.126 (0.276)	Data 0.001 (0.021)	Loss 0.442 (0.937)	Acc_Rate 1.000 (0.505)	
+2023-10-09 18:12:26,862 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:26,862 [trainer_dp.py:232] INFO Epoch: [0][40/97602]	Time 0.132 (0.239)	Data 0.001 (0.017)	Loss 0.565 (0.867)	Acc_Rate 0.667 (0.541)	
+2023-10-09 18:12:28,159 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:28,159 [trainer_dp.py:232] INFO Epoch: [0][50/97602]	Time 0.129 (0.218)	Data 0.001 (0.014)	Loss 1.261 (0.831)	Acc_Rate 0.500 (0.575)	
+2023-10-09 18:12:29,511 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:29,511 [trainer_dp.py:232] INFO Epoch: [0][60/97602]	Time 0.121 (0.204)	Data 0.001 (0.012)	Loss 0.539 (0.805)	Acc_Rate 0.833 (0.612)	
+2023-10-09 18:12:30,707 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:30,707 [trainer_dp.py:232] INFO Epoch: [0][70/97602]	Time 0.115 (0.192)	Data 0.001 (0.010)	Loss 0.446 (0.783)	Acc_Rate 1.000 (0.636)	
+2023-10-09 18:12:31,945 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:31,945 [trainer_dp.py:232] INFO Epoch: [0][80/97602]	Time 0.118 (0.184)	Data 0.001 (0.009)	Loss 0.175 (0.765)	Acc_Rate 0.833 (0.636)	
+2023-10-09 18:12:33,146 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:33,147 [trainer_dp.py:232] INFO Epoch: [0][90/97602]	Time 0.108 (0.177)	Data 0.001 (0.008)	Loss 1.547 (0.741)	Acc_Rate 0.167 (0.656)	
+2023-10-09 18:12:34,431 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:34,431 [trainer_dp.py:232] INFO Epoch: [0][100/97602]	Time 0.115 (0.172)	Data 0.001 (0.007)	Loss 0.037 (0.703)	Acc_Rate 1.000 (0.673)	
+2023-10-09 18:12:35,649 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:35,649 [trainer_dp.py:232] INFO Epoch: [0][110/97602]	Time 0.113 (0.168)	Data 0.001 (0.007)	Loss 0.247 (0.681)	Acc_Rate 1.000 (0.680)	
+2023-10-09 18:12:36,901 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:36,901 [trainer_dp.py:232] INFO Epoch: [0][120/97602]	Time 0.123 (0.164)	Data 0.001 (0.006)	Loss 0.374 (0.665)	Acc_Rate 0.667 (0.689)	
+2023-10-09 18:12:38,110 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:38,111 [trainer_dp.py:232] INFO Epoch: [0][130/97602]	Time 0.124 (0.161)	Data 0.001 (0.006)	Loss 0.329 (0.658)	Acc_Rate 0.833 (0.691)	
+2023-10-09 18:12:39,394 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:39,394 [trainer_dp.py:232] INFO Epoch: [0][140/97602]	Time 0.129 (0.158)	Data 0.001 (0.006)	Loss 0.517 (0.644)	Acc_Rate 1.000 (0.702)	
+2023-10-09 18:12:40,662 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:40,662 [trainer_dp.py:232] INFO Epoch: [0][150/97602]	Time 0.132 (0.156)	Data 0.001 (0.005)	Loss 0.050 (0.636)	Acc_Rate 1.000 (0.709)	
+2023-10-09 18:12:41,875 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:41,875 [trainer_dp.py:232] INFO Epoch: [0][160/97602]	Time 0.125 (0.154)	Data 0.001 (0.005)	Loss 0.565 (0.641)	Acc_Rate 0.667 (0.707)	
+2023-10-09 18:12:43,140 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:43,140 [trainer_dp.py:232] INFO Epoch: [0][170/97602]	Time 0.134 (0.153)	Data 0.001 (0.005)	Loss 0.005 (0.628)	Acc_Rate 1.000 (0.712)	
+2023-10-09 18:12:44,347 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:44,347 [trainer_dp.py:232] INFO Epoch: [0][180/97602]	Time 0.118 (0.151)	Data 0.001 (0.005)	Loss 0.471 (0.622)	Acc_Rate 0.667 (0.713)	
+2023-10-09 18:12:45,627 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:45,627 [trainer_dp.py:232] INFO Epoch: [0][190/97602]	Time 0.120 (0.150)	Data 0.001 (0.005)	Loss 0.539 (0.617)	Acc_Rate 1.000 (0.716)	
+2023-10-09 18:12:46,856 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:46,856 [trainer_dp.py:232] INFO Epoch: [0][200/97602]	Time 0.126 (0.148)	Data 0.001 (0.004)	Loss 0.236 (0.608)	Acc_Rate 1.000 (0.722)	
+2023-10-09 18:12:48,119 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:48,119 [trainer_dp.py:232] INFO Epoch: [0][210/97602]	Time 0.138 (0.147)	Data 0.001 (0.004)	Loss 0.048 (0.611)	Acc_Rate 1.000 (0.721)	
+2023-10-09 18:12:49,263 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:49,263 [trainer_dp.py:232] INFO Epoch: [0][220/97602]	Time 0.100 (0.146)	Data 0.001 (0.004)	Loss 0.007 (0.605)	Acc_Rate 1.000 (0.727)	
+2023-10-09 18:12:50,517 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:50,517 [trainer_dp.py:232] INFO Epoch: [0][230/97602]	Time 0.133 (0.145)	Data 0.001 (0.004)	Loss 1.164 (0.603)	Acc_Rate 0.333 (0.727)	
+2023-10-09 18:12:51,787 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:51,787 [trainer_dp.py:232] INFO Epoch: [0][240/97602]	Time 0.119 (0.144)	Data 0.001 (0.004)	Loss 0.748 (0.611)	Acc_Rate 0.500 (0.722)	
+2023-10-09 18:12:53,032 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:53,032 [trainer_dp.py:232] INFO Epoch: [0][250/97602]	Time 0.129 (0.143)	Data 0.001 (0.004)	Loss 0.584 (0.608)	Acc_Rate 0.667 (0.721)	
+2023-10-09 18:12:54,305 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:54,305 [trainer_dp.py:232] INFO Epoch: [0][260/97602]	Time 0.135 (0.143)	Data 0.001 (0.004)	Loss 0.099 (0.604)	Acc_Rate 1.000 (0.723)	
+2023-10-09 18:12:55,517 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:55,517 [trainer_dp.py:232] INFO Epoch: [0][270/97602]	Time 0.148 (0.142)	Data 0.001 (0.004)	Loss 1.337 (0.604)	Acc_Rate 0.500 (0.725)	
+2023-10-09 18:12:56,798 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:56,799 [trainer_dp.py:232] INFO Epoch: [0][280/97602]	Time 0.114 (0.141)	Data 0.001 (0.004)	Loss 0.074 (0.596)	Acc_Rate 1.000 (0.730)	
+2023-10-09 18:12:58,020 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:58,020 [trainer_dp.py:232] INFO Epoch: [0][290/97602]	Time 0.145 (0.141)	Data 0.001 (0.003)	Loss 0.680 (0.590)	Acc_Rate 0.500 (0.734)	
+2023-10-09 18:12:59,198 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:12:59,199 [trainer_dp.py:232] INFO Epoch: [0][300/97602]	Time 0.127 (0.140)	Data 0.001 (0.003)	Loss 0.968 (0.586)	Acc_Rate 0.500 (0.736)	
+2023-10-09 18:13:00,523 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:13:00,523 [trainer_dp.py:232] INFO Epoch: [0][310/97602]	Time 0.123 (0.140)	Data 0.001 (0.003)	Loss 0.567 (0.581)	Acc_Rate 0.667 (0.741)	
+2023-10-09 18:13:01,768 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:13:01,768 [trainer_dp.py:232] INFO Epoch: [0][320/97602]	Time 0.132 (0.139)	Data 0.001 (0.003)	Loss 0.511 (0.576)	Acc_Rate 0.667 (0.744)	
+2023-10-09 18:13:03,034 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:13:03,034 [trainer_dp.py:232] INFO Epoch: [0][330/97602]	Time 0.166 (0.139)	Data 0.001 (0.003)	Loss 0.003 (0.576)	Acc_Rate 1.000 (0.745)	
+2023-10-09 18:13:04,316 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:13:04,316 [trainer_dp.py:232] INFO Epoch: [0][340/97602]	Time 0.145 (0.139)	Data 0.012 (0.003)	Loss 0.209 (0.573)	Acc_Rate 0.833 (0.746)	
+2023-10-09 18:13:05,570 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:13:05,571 [trainer_dp.py:232] INFO Epoch: [0][350/97602]	Time 0.122 (0.138)	Data 0.001 (0.003)	Loss 0.184 (0.566)	Acc_Rate 1.000 (0.750)	
+2023-10-09 18:13:06,801 [trainer_dp.py:224] INFO this is round 0
+2023-10-09 18:13:06,801 [trainer_dp.py:232] INFO Epoch: [0][360/97602]	Time 0.142 (0.138)	Data 0.001 (0.003)	Loss 0.237 (0.558)	Acc_Rate 1.000 (0.754)	
+2023-10-09 18:22:20,055 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=2, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:22:20,056 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:22:20,640 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:22:25,593 [trainer_dp.py:111] INFO Initial a new model...
+2023-10-09 18:22:25,595 [train.py:53] INFO round 0
+2023-10-09 18:22:25,595 [train.py:54] INFO num of epoches: 70
+2023-10-09 18:22:25,595 [train.py:55] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 18:22:25,595 [trainer_dp.py:180] INFO learning rate of epoch 0: 0.000300.
+2023-10-09 18:22:30,426 [trainer_dp.py:226] INFO this is round 0
+2023-10-09 18:22:30,426 [trainer_dp.py:234] INFO Epoch: [0][0/97602]	Time 4.831 (4.831)	Data 0.609 (0.609)	Loss 1.027 (1.027)	Acc_Rate 0.833 (0.833)	
+2023-10-09 18:22:31,669 [trainer_dp.py:226] INFO this is round 0
+2023-10-09 18:22:31,670 [trainer_dp.py:234] INFO Epoch: [0][10/97602]	Time 0.148 (0.552)	Data 0.001 (0.056)	Loss 0.847 (1.077)	Acc_Rate 0.667 (0.545)	
+2023-10-09 18:23:40,618 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=8, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 18:23:40,618 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:23:41,204 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:23:46,183 [trainer_dp.py:111] INFO Initial a new model...
+2023-10-09 18:23:46,185 [train.py:53] INFO round 0
+2023-10-09 18:23:46,186 [train.py:54] INFO num of epoches: 70
+2023-10-09 18:23:46,186 [train.py:55] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 18:23:46,187 [trainer_dp.py:180] INFO learning rate of epoch 0: 0.000300.
+2023-10-09 18:23:52,252 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:23:52,253 [trainer_dp.py:233] INFO Epoch: [0][0/24401]	Time 6.066 (6.066)	Data 1.308 (1.308)	Loss 1.093 (1.093)	Acc_Rate 0.583 (0.583)	
+2023-10-09 18:23:53,625 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:23:53,626 [trainer_dp.py:233] INFO Epoch: [0][10/24401]	Time 0.109 (0.676)	Data 0.003 (0.122)	Loss 0.943 (0.982)	Acc_Rate 0.500 (0.500)	
+2023-10-09 18:23:55,385 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:23:55,385 [trainer_dp.py:233] INFO Epoch: [0][20/24401]	Time 0.149 (0.438)	Data 0.003 (0.077)	Loss 0.670 (0.834)	Acc_Rate 0.708 (0.593)	
+2023-10-09 18:23:57,514 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:23:57,514 [trainer_dp.py:233] INFO Epoch: [0][30/24401]	Time 0.207 (0.365)	Data 0.003 (0.070)	Loss 0.694 (0.711)	Acc_Rate 0.583 (0.671)	
+2023-10-09 18:23:59,303 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:23:59,303 [trainer_dp.py:233] INFO Epoch: [0][40/24401]	Time 0.131 (0.320)	Data 0.003 (0.059)	Loss 0.730 (0.659)	Acc_Rate 0.750 (0.700)	
+2023-10-09 18:24:01,267 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:01,267 [trainer_dp.py:233] INFO Epoch: [0][50/24401]	Time 0.164 (0.296)	Data 0.003 (0.056)	Loss 0.476 (0.605)	Acc_Rate 0.833 (0.727)	
+2023-10-09 18:24:03,040 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:03,040 [trainer_dp.py:233] INFO Epoch: [0][60/24401]	Time 0.113 (0.276)	Data 0.003 (0.052)	Loss 0.202 (0.561)	Acc_Rate 1.000 (0.758)	
+2023-10-09 18:24:05,087 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:05,087 [trainer_dp.py:233] INFO Epoch: [0][70/24401]	Time 0.205 (0.266)	Data 0.003 (0.050)	Loss 0.298 (0.532)	Acc_Rate 0.792 (0.772)	
+2023-10-09 18:24:06,942 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:06,943 [trainer_dp.py:233] INFO Epoch: [0][80/24401]	Time 0.119 (0.256)	Data 0.003 (0.049)	Loss 0.330 (0.515)	Acc_Rate 0.750 (0.780)	
+2023-10-09 18:24:08,943 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:08,943 [trainer_dp.py:233] INFO Epoch: [0][90/24401]	Time 0.131 (0.250)	Data 0.003 (0.050)	Loss 0.295 (0.516)	Acc_Rate 1.000 (0.779)	
+2023-10-09 18:24:10,720 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:10,721 [trainer_dp.py:233] INFO Epoch: [0][100/24401]	Time 0.112 (0.243)	Data 0.003 (0.048)	Loss 0.175 (0.499)	Acc_Rate 1.000 (0.785)	
+2023-10-09 18:24:12,868 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:12,868 [trainer_dp.py:233] INFO Epoch: [0][110/24401]	Time 0.173 (0.240)	Data 0.003 (0.049)	Loss 0.150 (0.483)	Acc_Rate 0.917 (0.792)	
+2023-10-09 18:24:14,605 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:14,605 [trainer_dp.py:233] INFO Epoch: [0][120/24401]	Time 0.125 (0.235)	Data 0.003 (0.048)	Loss 0.259 (0.471)	Acc_Rate 0.958 (0.797)	
+2023-10-09 18:24:16,527 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:16,527 [trainer_dp.py:233] INFO Epoch: [0][130/24401]	Time 0.165 (0.232)	Data 0.003 (0.047)	Loss 0.189 (0.457)	Acc_Rate 1.000 (0.805)	
+2023-10-09 18:24:18,466 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:18,467 [trainer_dp.py:233] INFO Epoch: [0][140/24401]	Time 0.174 (0.229)	Data 0.003 (0.047)	Loss 0.224 (0.451)	Acc_Rate 0.875 (0.809)	
+2023-10-09 18:24:20,363 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:20,363 [trainer_dp.py:233] INFO Epoch: [0][150/24401]	Time 0.170 (0.226)	Data 0.003 (0.046)	Loss 0.447 (0.440)	Acc_Rate 0.708 (0.813)	
+2023-10-09 18:24:22,181 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:22,181 [trainer_dp.py:233] INFO Epoch: [0][160/24401]	Time 0.171 (0.224)	Data 0.003 (0.045)	Loss 0.212 (0.436)	Acc_Rate 0.917 (0.817)	
+2023-10-09 18:24:24,196 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:24,197 [trainer_dp.py:233] INFO Epoch: [0][170/24401]	Time 0.152 (0.222)	Data 0.003 (0.046)	Loss 0.392 (0.428)	Acc_Rate 0.875 (0.821)	
+2023-10-09 18:24:26,004 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:26,004 [trainer_dp.py:233] INFO Epoch: [0][180/24401]	Time 0.121 (0.220)	Data 0.003 (0.046)	Loss 0.212 (0.418)	Acc_Rate 0.958 (0.826)	
+2023-10-09 18:24:28,042 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:28,042 [trainer_dp.py:233] INFO Epoch: [0][190/24401]	Time 0.172 (0.219)	Data 0.003 (0.047)	Loss 0.492 (0.420)	Acc_Rate 0.875 (0.827)	
+2023-10-09 18:24:29,829 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:29,830 [trainer_dp.py:233] INFO Epoch: [0][200/24401]	Time 0.201 (0.217)	Data 0.003 (0.046)	Loss 0.138 (0.413)	Acc_Rate 0.917 (0.830)	
+2023-10-09 18:24:31,685 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:31,685 [trainer_dp.py:233] INFO Epoch: [0][210/24401]	Time 0.123 (0.216)	Data 0.003 (0.045)	Loss 0.136 (0.407)	Acc_Rate 0.958 (0.833)	
+2023-10-09 18:24:33,441 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:24:33,441 [trainer_dp.py:233] INFO Epoch: [0][220/24401]	Time 0.122 (0.214)	Data 0.003 (0.044)	Loss 0.434 (0.404)	Acc_Rate 0.792 (0.834)	
+2023-10-09 18:28:41,118 [train.py:115] INFO Configurations: Namespace(backbone='34', batch_size=8, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/examples/train_example.txt', vallist='filenames/examples/val_example.txt', workers=8)
+2023-10-09 18:28:41,119 [train.py:119] INFO Random Seed: 1024
+2023-10-09 18:28:41,143 [trainer_dp.py:87] INFO Use 4 processes to load data...
+2023-10-09 18:28:46,097 [trainer_dp.py:111] INFO Initial a new model...
+2023-10-09 18:28:46,099 [train.py:53] INFO round 0
+2023-10-09 18:28:46,099 [train.py:54] INFO num of epoches: 70
+2023-10-09 18:28:46,099 [train.py:55] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 18:28:46,100 [trainer_dp.py:180] INFO learning rate of epoch 0: 0.000300.
+2023-10-09 18:28:52,216 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:28:52,216 [trainer_dp.py:233] INFO Epoch: [0][0/25]	Time 6.117 (6.117)	Data 1.656 (1.656)	Loss 1.114 (1.114)	Acc_Rate 0.125 (0.125)	
+2023-10-09 18:28:53,679 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:28:53,679 [trainer_dp.py:233] INFO Epoch: [0][10/25]	Time 0.176 (0.689)	Data 0.003 (0.153)	Loss 0.746 (0.877)	Acc_Rate 0.667 (0.561)	
+2023-10-09 18:28:55,245 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:28:55,245 [trainer_dp.py:233] INFO Epoch: [0][20/25]	Time 0.158 (0.435)	Data 0.003 (0.082)	Loss 0.365 (0.719)	Acc_Rate 0.875 (0.667)	
+2023-10-09 18:28:56,666 [trainer_dp.py:277] INFO Test: [0/50]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:28:57,020 [trainer_dp.py:277] INFO Test: [10/50]	 Time 0	 Acc 1.0
+2023-10-09 18:28:57,355 [trainer_dp.py:277] INFO Test: [20/50]	 Time 0	 Acc 1.0
+2023-10-09 18:28:57,677 [trainer_dp.py:277] INFO Test: [30/50]	 Time 0	 Acc 1.0
+2023-10-09 18:28:58,022 [trainer_dp.py:277] INFO Test: [40/50]	 Time 0	 Acc 1.0
+2023-10-09 18:28:58,499 [trainer_dp.py:282] INFO  * ACC 84.667
+2023-10-09 18:28:58,693 [train.py:77] INFO Validation[epoch:0]: 2023-10-09 18:28:58	0.6708300167322159	0.6900000178813934	tensor(84.6667, device='cuda:0')	0.0003
+2023-10-09 18:28:58,693 [train.py:78] INFO max acc from 0 epoch
+2023-10-09 18:28:58,693 [trainer_dp.py:180] INFO learning rate of epoch 1: 0.000300.
+2023-10-09 18:29:00,265 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:00,266 [trainer_dp.py:233] INFO Epoch: [1][0/25]	Time 1.572 (1.572)	Data 1.379 (1.379)	Loss 0.371 (0.371)	Acc_Rate 0.875 (0.875)	
+2023-10-09 18:29:01,953 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:01,953 [trainer_dp.py:233] INFO Epoch: [1][10/25]	Time 0.173 (0.296)	Data 0.003 (0.152)	Loss 0.200 (0.274)	Acc_Rate 0.917 (0.913)	
+2023-10-09 18:29:03,723 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:03,723 [trainer_dp.py:233] INFO Epoch: [1][20/25]	Time 0.322 (0.239)	Data 0.162 (0.091)	Loss 0.153 (0.266)	Acc_Rate 0.917 (0.909)	
+2023-10-09 18:29:04,993 [trainer_dp.py:277] INFO Test: [0/50]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:29:05,333 [trainer_dp.py:277] INFO Test: [10/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:05,675 [trainer_dp.py:277] INFO Test: [20/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:06,031 [trainer_dp.py:277] INFO Test: [30/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:06,367 [trainer_dp.py:277] INFO Test: [40/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:06,806 [trainer_dp.py:282] INFO  * ACC 80.000
+2023-10-09 18:29:07,165 [train.py:77] INFO Validation[epoch:1]: 2023-10-09 18:29:07	0.2761714804172516	0.9000000143051148	tensor(80., device='cuda:0')	0.0003
+2023-10-09 18:29:07,165 [train.py:78] INFO max acc from 1 epoch
+2023-10-09 18:29:07,166 [trainer_dp.py:180] INFO learning rate of epoch 2: 0.000300.
+2023-10-09 18:29:08,647 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:08,648 [trainer_dp.py:233] INFO Epoch: [2][0/25]	Time 1.481 (1.481)	Data 1.252 (1.252)	Loss 0.126 (0.126)	Acc_Rate 0.958 (0.958)	
+2023-10-09 18:29:10,483 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:10,483 [trainer_dp.py:233] INFO Epoch: [2][10/25]	Time 0.164 (0.301)	Data 0.003 (0.151)	Loss 0.102 (0.168)	Acc_Rate 0.958 (0.928)	
+2023-10-09 18:29:12,655 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:12,655 [trainer_dp.py:233] INFO Epoch: [2][20/25]	Time 0.294 (0.261)	Data 0.178 (0.108)	Loss 0.108 (0.200)	Acc_Rate 0.958 (0.923)	
+2023-10-09 18:29:14,190 [trainer_dp.py:277] INFO Test: [0/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:14,561 [trainer_dp.py:277] INFO Test: [10/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:14,900 [trainer_dp.py:277] INFO Test: [20/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:15,275 [trainer_dp.py:277] INFO Test: [30/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:15,620 [trainer_dp.py:277] INFO Test: [40/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:16,062 [trainer_dp.py:282] INFO  * ACC 89.333
+2023-10-09 18:29:16,428 [train.py:77] INFO Validation[epoch:2]: 2023-10-09 18:29:16	0.18551881529390812	0.9283333539962768	tensor(89.3333, device='cuda:0')	0.0003
+2023-10-09 18:29:16,428 [train.py:78] INFO max acc from 2 epoch
+2023-10-09 18:29:16,429 [trainer_dp.py:180] INFO learning rate of epoch 3: 0.000300.
+2023-10-09 18:29:18,056 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:18,057 [trainer_dp.py:233] INFO Epoch: [3][0/25]	Time 1.627 (1.627)	Data 1.486 (1.486)	Loss 0.228 (0.228)	Acc_Rate 0.875 (0.875)	
+2023-10-09 18:29:19,701 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:19,702 [trainer_dp.py:233] INFO Epoch: [3][10/25]	Time 0.124 (0.297)	Data 0.003 (0.154)	Loss 0.093 (0.135)	Acc_Rate 1.000 (0.951)	
+2023-10-09 18:29:21,412 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:21,412 [trainer_dp.py:233] INFO Epoch: [3][20/25]	Time 0.199 (0.237)	Data 0.003 (0.082)	Loss 0.176 (0.120)	Acc_Rate 0.958 (0.962)	
+2023-10-09 18:29:22,716 [trainer_dp.py:277] INFO Test: [0/50]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:29:23,074 [trainer_dp.py:277] INFO Test: [10/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:23,452 [trainer_dp.py:277] INFO Test: [20/50]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:29:23,771 [trainer_dp.py:277] INFO Test: [30/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:24,142 [trainer_dp.py:277] INFO Test: [40/50]	 Time 0	 Acc 0.6666666865348816
+2023-10-09 18:29:24,575 [trainer_dp.py:282] INFO  * ACC 89.333
+2023-10-09 18:29:24,950 [train.py:77] INFO Validation[epoch:3]: 2023-10-09 18:29:24	0.10742521230131388	0.9683333444595337	tensor(89.3333, device='cuda:0')	0.0003
+2023-10-09 18:29:24,950 [train.py:78] INFO max acc from 3 epoch
+2023-10-09 18:29:24,951 [trainer_dp.py:180] INFO learning rate of epoch 4: 0.000300.
+2023-10-09 18:29:26,348 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:26,348 [trainer_dp.py:233] INFO Epoch: [4][0/25]	Time 1.396 (1.396)	Data 1.178 (1.178)	Loss 0.015 (0.015)	Acc_Rate 1.000 (1.000)	
+2023-10-09 18:29:28,277 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:28,277 [trainer_dp.py:233] INFO Epoch: [4][10/25]	Time 0.167 (0.302)	Data 0.003 (0.140)	Loss 0.604 (0.097)	Acc_Rate 0.833 (0.973)	
+2023-10-09 18:29:30,087 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:30,087 [trainer_dp.py:233] INFO Epoch: [4][20/25]	Time 0.372 (0.245)	Data 0.219 (0.087)	Loss 0.056 (0.087)	Acc_Rate 0.958 (0.970)	
+2023-10-09 18:29:31,343 [trainer_dp.py:277] INFO Test: [0/50]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:29:31,725 [trainer_dp.py:277] INFO Test: [10/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:32,084 [trainer_dp.py:277] INFO Test: [20/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:32,417 [trainer_dp.py:277] INFO Test: [30/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:32,750 [trainer_dp.py:277] INFO Test: [40/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:33,186 [trainer_dp.py:282] INFO  * ACC 87.333
+2023-10-09 18:29:33,562 [train.py:77] INFO Validation[epoch:4]: 2023-10-09 18:29:33	0.08493821086362004	0.97166668176651	tensor(87.3333, device='cuda:0')	0.0003
+2023-10-09 18:29:33,563 [train.py:78] INFO max acc from 4 epoch
+2023-10-09 18:29:33,564 [trainer_dp.py:180] INFO learning rate of epoch 5: 0.000300.
+2023-10-09 18:29:35,115 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:35,115 [trainer_dp.py:233] INFO Epoch: [5][0/25]	Time 1.551 (1.551)	Data 1.326 (1.326)	Loss 0.090 (0.090)	Acc_Rate 0.958 (0.958)	
+2023-10-09 18:29:36,805 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:36,805 [trainer_dp.py:233] INFO Epoch: [5][10/25]	Time 0.122 (0.295)	Data 0.003 (0.151)	Loss 0.055 (0.055)	Acc_Rate 1.000 (0.977)	
+2023-10-09 18:29:38,576 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:38,576 [trainer_dp.py:233] INFO Epoch: [5][20/25]	Time 0.237 (0.239)	Data 0.087 (0.092)	Loss 0.017 (0.057)	Acc_Rate 1.000 (0.982)	
+2023-10-09 18:29:40,086 [trainer_dp.py:277] INFO Test: [0/50]	 Time 0	 Acc 0.3333333432674408
+2023-10-09 18:29:40,466 [trainer_dp.py:277] INFO Test: [10/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:40,826 [trainer_dp.py:277] INFO Test: [20/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:41,149 [trainer_dp.py:277] INFO Test: [30/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:41,486 [trainer_dp.py:277] INFO Test: [40/50]	 Time 0	 Acc 1.0
+2023-10-09 18:29:41,939 [trainer_dp.py:282] INFO  * ACC 83.333
+2023-10-09 18:29:42,301 [train.py:77] INFO Validation[epoch:5]: 2023-10-09 18:29:42	0.05945138867944479	0.983333342075348	tensor(83.3333, device='cuda:0')	0.0003
+2023-10-09 18:29:42,302 [train.py:78] INFO max acc from 5 epoch
+2023-10-09 18:29:42,303 [trainer_dp.py:180] INFO learning rate of epoch 6: 0.000300.
+2023-10-09 18:29:43,935 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:43,936 [trainer_dp.py:233] INFO Epoch: [6][0/25]	Time 1.632 (1.632)	Data 1.439 (1.439)	Loss 0.020 (0.020)	Acc_Rate 1.000 (1.000)	
+2023-10-09 18:29:45,650 [trainer_dp.py:225] INFO this is round 0
+2023-10-09 18:29:45,651 [trainer_dp.py:233] INFO Epoch: [6][10/25]	Time 0.167 (0.304)	Data 0.003 (0.157)	Loss 0.150 (0.093)	Acc_Rate 0.917 (0.973)	
+2023-10-09 20:35:25,717 [train_ddp.py:122] INFO Configurations: Namespace(backbone='34', batch_size=4, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', local_rank=0, logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 20:35:25,717 [train_ddp.py:128] INFO Random Seed: 1024
+2023-10-09 20:35:25,741 [distributed_c10d.py:217] INFO Added key: store_based_barrier_key:1 to store for rank: 0
+2023-10-09 20:35:35,749 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=3, worker_count=2, timeout=0:30:00)
+2023-10-09 20:35:45,750 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=3, worker_count=2, timeout=0:30:00)
+2023-10-09 20:35:55,752 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=3, worker_count=2, timeout=0:30:00)
+2023-10-09 20:37:18,706 [train_ddp.py:122] INFO Configurations: Namespace(backbone='34', batch_size=4, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0', local_rank=0, logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 20:37:18,707 [train_ddp.py:128] INFO Random Seed: 1024
+2023-10-09 20:37:18,727 [distributed_c10d.py:217] INFO Added key: store_based_barrier_key:1 to store for rank: 0
+2023-10-09 20:37:28,731 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=1, worker_count=2, timeout=0:30:00)
+2023-10-09 20:37:38,732 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=1, worker_count=2, timeout=0:30:00)
+2023-10-09 20:37:48,741 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=1, worker_count=2, timeout=0:30:00)
+2023-10-09 20:37:58,749 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=1, worker_count=2, timeout=0:30:00)
+2023-10-09 20:38:57,805 [train_ddp.py:122] INFO Configurations: Namespace(backbone='34', batch_size=4, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0', local_rank=0, logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 20:38:57,805 [train_ddp.py:128] INFO Random Seed: 1024
+2023-10-09 20:38:57,827 [distributed_c10d.py:217] INFO Added key: store_based_barrier_key:1 to store for rank: 0
+2023-10-09 20:38:57,827 [distributed_c10d.py:252] INFO Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+2023-10-09 20:38:57,827 [trainer_ddp.py:174] INFO >> Training with distributed parallel.............
+2023-10-09 20:38:57,828 [trainer_ddp.py:78] INFO Use 4 processes to load data...
+2023-10-09 20:39:03,436 [trainer_ddp.py:120] INFO Initial a new model...
+2023-10-09 20:39:03,438 [train_ddp.py:55] INFO round 0
+2023-10-09 20:39:03,438 [train_ddp.py:56] INFO num of epoches: 70
+2023-10-09 20:39:03,438 [train_ddp.py:57] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 20:39:03,439 [trainer_ddp.py:198] INFO learning rate of epoch 0: 0.000100.
+2023-10-09 20:39:04,900 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:04,900 [trainer_ddp.py:253] INFO Epoch: [0][0/48800]	Time 1.461 (1.461)	Data 0.964 (0.964)	Loss 1.105 (1.105)	Acc_Rate 0.500 (0.500)	
+2023-10-09 20:39:05,670 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:05,671 [trainer_ddp.py:253] INFO Epoch: [0][10/48800]	Time 0.095 (0.203)	Data 0.002 (0.089)	Loss 0.877 (1.006)	Acc_Rate 0.750 (0.470)	
+2023-10-09 20:39:06,533 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:06,534 [trainer_ddp.py:253] INFO Epoch: [0][20/48800]	Time 0.067 (0.147)	Data 0.002 (0.050)	Loss 0.731 (0.955)	Acc_Rate 0.917 (0.571)	
+2023-10-09 20:39:07,450 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:07,450 [trainer_ddp.py:253] INFO Epoch: [0][30/48800]	Time 0.080 (0.129)	Data 0.002 (0.037)	Loss 0.626 (0.899)	Acc_Rate 0.583 (0.608)	
+2023-10-09 20:39:08,468 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:08,468 [trainer_ddp.py:253] INFO Epoch: [0][40/48800]	Time 0.089 (0.123)	Data 0.002 (0.032)	Loss 0.500 (0.842)	Acc_Rate 0.833 (0.642)	
+2023-10-09 20:39:09,376 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:09,377 [trainer_ddp.py:253] INFO Epoch: [0][50/48800]	Time 0.107 (0.116)	Data 0.002 (0.028)	Loss 0.392 (0.819)	Acc_Rate 0.833 (0.652)	
+2023-10-09 20:39:10,432 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:10,433 [trainer_ddp.py:253] INFO Epoch: [0][60/48800]	Time 0.115 (0.115)	Data 0.002 (0.028)	Loss 0.419 (0.784)	Acc_Rate 0.833 (0.667)	
+2023-10-09 20:39:11,343 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:11,343 [trainer_ddp.py:253] INFO Epoch: [0][70/48800]	Time 0.085 (0.111)	Data 0.002 (0.026)	Loss 0.500 (0.745)	Acc_Rate 0.750 (0.680)	
+2023-10-09 20:39:12,440 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:12,440 [trainer_ddp.py:253] INFO Epoch: [0][80/48800]	Time 0.059 (0.111)	Data 0.002 (0.027)	Loss 1.395 (0.717)	Acc_Rate 0.250 (0.689)	
+2023-10-09 20:39:13,462 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:13,462 [trainer_ddp.py:253] INFO Epoch: [0][90/48800]	Time 0.096 (0.110)	Data 0.002 (0.026)	Loss 0.356 (0.689)	Acc_Rate 0.833 (0.705)	
+2023-10-09 20:39:14,324 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:14,325 [trainer_ddp.py:253] INFO Epoch: [0][100/48800]	Time 0.088 (0.108)	Data 0.002 (0.025)	Loss 0.417 (0.661)	Acc_Rate 0.833 (0.717)	
+2023-10-09 20:39:15,272 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:15,272 [trainer_ddp.py:253] INFO Epoch: [0][110/48800]	Time 0.093 (0.107)	Data 0.002 (0.024)	Loss 0.587 (0.642)	Acc_Rate 0.750 (0.725)	
+2023-10-09 20:39:16,262 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:16,262 [trainer_ddp.py:253] INFO Epoch: [0][120/48800]	Time 0.060 (0.106)	Data 0.002 (0.023)	Loss 0.164 (0.627)	Acc_Rate 1.000 (0.731)	
+2023-10-09 20:39:17,178 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:17,178 [trainer_ddp.py:253] INFO Epoch: [0][130/48800]	Time 0.089 (0.105)	Data 0.002 (0.023)	Loss 0.094 (0.615)	Acc_Rate 1.000 (0.735)	
+2023-10-09 20:39:18,216 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:18,216 [trainer_ddp.py:253] INFO Epoch: [0][140/48800]	Time 0.078 (0.105)	Data 0.002 (0.023)	Loss 0.395 (0.596)	Acc_Rate 0.917 (0.744)	
+2023-10-09 20:39:19,158 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:19,158 [trainer_ddp.py:253] INFO Epoch: [0][150/48800]	Time 0.088 (0.104)	Data 0.002 (0.022)	Loss 0.698 (0.584)	Acc_Rate 0.583 (0.748)	
+2023-10-09 20:39:20,234 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:20,235 [trainer_ddp.py:253] INFO Epoch: [0][160/48800]	Time 0.080 (0.104)	Data 0.002 (0.022)	Loss 0.202 (0.565)	Acc_Rate 1.000 (0.758)	
+2023-10-09 20:39:21,211 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:21,211 [trainer_ddp.py:253] INFO Epoch: [0][170/48800]	Time 0.083 (0.104)	Data 0.002 (0.022)	Loss 0.182 (0.549)	Acc_Rate 0.917 (0.764)	
+2023-10-09 20:39:22,105 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:22,106 [trainer_ddp.py:253] INFO Epoch: [0][180/48800]	Time 0.063 (0.103)	Data 0.002 (0.021)	Loss 0.691 (0.543)	Acc_Rate 0.667 (0.766)	
+2023-10-09 20:39:23,084 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:23,084 [trainer_ddp.py:253] INFO Epoch: [0][190/48800]	Time 0.089 (0.103)	Data 0.002 (0.021)	Loss 0.475 (0.527)	Acc_Rate 0.750 (0.775)	
+2023-10-09 20:39:24,259 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:24,260 [trainer_ddp.py:253] INFO Epoch: [0][200/48800]	Time 0.135 (0.104)	Data 0.002 (0.021)	Loss 0.186 (0.515)	Acc_Rate 1.000 (0.781)	
+2023-10-09 20:39:25,086 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:25,087 [trainer_ddp.py:253] INFO Epoch: [0][210/48800]	Time 0.110 (0.103)	Data 0.002 (0.021)	Loss 0.461 (0.512)	Acc_Rate 0.750 (0.782)	
+2023-10-09 20:39:26,079 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:26,079 [trainer_ddp.py:253] INFO Epoch: [0][220/48800]	Time 0.092 (0.102)	Data 0.002 (0.021)	Loss 0.117 (0.497)	Acc_Rate 1.000 (0.790)	
+2023-10-09 20:39:26,959 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:26,959 [trainer_ddp.py:253] INFO Epoch: [0][230/48800]	Time 0.086 (0.102)	Data 0.002 (0.020)	Loss 0.317 (0.491)	Acc_Rate 0.750 (0.793)	
+2023-10-09 20:39:27,979 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:27,980 [trainer_ddp.py:253] INFO Epoch: [0][240/48800]	Time 0.062 (0.102)	Data 0.002 (0.020)	Loss 0.097 (0.480)	Acc_Rate 1.000 (0.798)	
+2023-10-09 20:39:28,961 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:28,961 [trainer_ddp.py:253] INFO Epoch: [0][250/48800]	Time 0.084 (0.102)	Data 0.002 (0.020)	Loss 0.087 (0.468)	Acc_Rate 1.000 (0.804)	
+2023-10-09 20:39:30,000 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:30,000 [trainer_ddp.py:253] INFO Epoch: [0][260/48800]	Time 0.096 (0.102)	Data 0.002 (0.020)	Loss 0.154 (0.461)	Acc_Rate 0.917 (0.807)	
+2023-10-09 20:39:30,945 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:30,945 [trainer_ddp.py:253] INFO Epoch: [0][270/48800]	Time 0.059 (0.101)	Data 0.002 (0.020)	Loss 0.921 (0.460)	Acc_Rate 0.583 (0.806)	
+2023-10-09 20:39:31,955 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:31,955 [trainer_ddp.py:253] INFO Epoch: [0][280/48800]	Time 0.071 (0.101)	Data 0.002 (0.020)	Loss 0.315 (0.458)	Acc_Rate 0.833 (0.807)	
+2023-10-09 20:39:32,890 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:32,890 [trainer_ddp.py:253] INFO Epoch: [0][290/48800]	Time 0.111 (0.101)	Data 0.002 (0.019)	Loss 0.194 (0.452)	Acc_Rate 0.917 (0.809)	
+2023-10-09 20:39:33,833 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:33,833 [trainer_ddp.py:253] INFO Epoch: [0][300/48800]	Time 0.057 (0.101)	Data 0.002 (0.019)	Loss 0.259 (0.448)	Acc_Rate 0.917 (0.810)	
+2023-10-09 20:39:39,573 [train_ddp.py:122] INFO Configurations: Namespace(backbone='34', batch_size=8, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0', local_rank=0, logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 20:39:39,573 [train_ddp.py:128] INFO Random Seed: 1024
+2023-10-09 20:39:39,596 [distributed_c10d.py:217] INFO Added key: store_based_barrier_key:1 to store for rank: 0
+2023-10-09 20:39:39,596 [distributed_c10d.py:252] INFO Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+2023-10-09 20:39:39,597 [trainer_ddp.py:174] INFO >> Training with distributed parallel.............
+2023-10-09 20:39:39,597 [trainer_ddp.py:78] INFO Use 4 processes to load data...
+2023-10-09 20:39:45,203 [trainer_ddp.py:120] INFO Initial a new model...
+2023-10-09 20:39:45,204 [train_ddp.py:55] INFO round 0
+2023-10-09 20:39:45,205 [train_ddp.py:56] INFO num of epoches: 70
+2023-10-09 20:39:45,205 [train_ddp.py:57] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 20:39:45,205 [trainer_ddp.py:198] INFO learning rate of epoch 0: 0.000100.
+2023-10-09 20:39:47,093 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:47,093 [trainer_ddp.py:253] INFO Epoch: [0][0/24400]	Time 1.888 (1.888)	Data 1.312 (1.312)	Loss 1.127 (1.127)	Acc_Rate 0.167 (0.167)	
+2023-10-09 20:39:48,373 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:48,373 [trainer_ddp.py:253] INFO Epoch: [0][10/24400]	Time 0.085 (0.288)	Data 0.003 (0.140)	Loss 0.705 (0.939)	Acc_Rate 0.750 (0.508)	
+2023-10-09 20:39:50,529 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:50,529 [trainer_ddp.py:253] INFO Epoch: [0][20/24400]	Time 0.544 (0.254)	Data 0.467 (0.140)	Loss 0.753 (0.897)	Acc_Rate 0.583 (0.522)	
+2023-10-09 20:39:52,092 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:52,092 [trainer_ddp.py:253] INFO Epoch: [0][30/24400]	Time 0.068 (0.222)	Data 0.003 (0.120)	Loss 0.661 (0.844)	Acc_Rate 0.708 (0.556)	
+2023-10-09 20:39:54,276 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:54,276 [trainer_ddp.py:253] INFO Epoch: [0][40/24400]	Time 0.554 (0.221)	Data 0.479 (0.124)	Loss 0.584 (0.771)	Acc_Rate 0.792 (0.634)	
+2023-10-09 20:39:56,051 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:56,052 [trainer_ddp.py:253] INFO Epoch: [0][50/24400]	Time 0.112 (0.213)	Data 0.003 (0.118)	Loss 0.417 (0.719)	Acc_Rate 0.792 (0.664)	
+2023-10-09 20:39:58,207 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:39:58,207 [trainer_ddp.py:253] INFO Epoch: [0][60/24400]	Time 0.472 (0.213)	Data 0.359 (0.116)	Loss 0.297 (0.674)	Acc_Rate 0.917 (0.691)	
+2023-10-09 20:40:00,031 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:00,031 [trainer_ddp.py:253] INFO Epoch: [0][70/24400]	Time 0.105 (0.209)	Data 0.003 (0.111)	Loss 0.557 (0.643)	Acc_Rate 0.792 (0.708)	
+2023-10-09 20:40:02,070 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:02,070 [trainer_ddp.py:253] INFO Epoch: [0][80/24400]	Time 0.400 (0.208)	Data 0.331 (0.110)	Loss 0.267 (0.611)	Acc_Rate 0.917 (0.727)	
+2023-10-09 20:40:03,707 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:03,707 [trainer_ddp.py:253] INFO Epoch: [0][90/24400]	Time 0.105 (0.203)	Data 0.003 (0.106)	Loss 0.582 (0.586)	Acc_Rate 0.667 (0.739)	
+2023-10-09 20:40:05,891 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:05,892 [trainer_ddp.py:253] INFO Epoch: [0][100/24400]	Time 0.482 (0.205)	Data 0.362 (0.108)	Loss 0.202 (0.554)	Acc_Rate 1.000 (0.758)	
+2023-10-09 20:40:07,691 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:07,691 [trainer_ddp.py:253] INFO Epoch: [0][110/24400]	Time 0.093 (0.203)	Data 0.003 (0.106)	Loss 0.309 (0.530)	Acc_Rate 0.792 (0.768)	
+2023-10-09 20:40:09,851 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:09,851 [trainer_ddp.py:253] INFO Epoch: [0][120/24400]	Time 0.419 (0.204)	Data 0.339 (0.107)	Loss 0.118 (0.517)	Acc_Rate 0.958 (0.775)	
+2023-10-09 20:40:11,612 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:11,613 [trainer_ddp.py:253] INFO Epoch: [0][130/24400]	Time 0.153 (0.202)	Data 0.003 (0.105)	Loss 0.436 (0.503)	Acc_Rate 0.750 (0.782)	
+2023-10-09 20:40:13,659 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:13,659 [trainer_ddp.py:253] INFO Epoch: [0][140/24400]	Time 0.377 (0.202)	Data 0.301 (0.105)	Loss 0.298 (0.493)	Acc_Rate 0.875 (0.787)	
+2023-10-09 20:40:15,397 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:15,397 [trainer_ddp.py:253] INFO Epoch: [0][150/24400]	Time 0.078 (0.200)	Data 0.003 (0.104)	Loss 0.213 (0.478)	Acc_Rate 0.875 (0.794)	
+2023-10-09 20:40:17,553 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:17,553 [trainer_ddp.py:253] INFO Epoch: [0][160/24400]	Time 0.442 (0.201)	Data 0.361 (0.105)	Loss 0.389 (0.465)	Acc_Rate 0.708 (0.799)	
+2023-10-09 20:40:19,189 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:19,190 [trainer_ddp.py:253] INFO Epoch: [0][170/24400]	Time 0.064 (0.199)	Data 0.003 (0.103)	Loss 1.034 (0.456)	Acc_Rate 0.583 (0.805)	
+2023-10-09 20:40:21,311 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:21,312 [trainer_ddp.py:253] INFO Epoch: [0][180/24400]	Time 0.345 (0.199)	Data 0.264 (0.104)	Loss 0.133 (0.450)	Acc_Rate 1.000 (0.808)	
+2023-10-09 20:40:23,103 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:23,103 [trainer_ddp.py:253] INFO Epoch: [0][190/24400]	Time 0.101 (0.198)	Data 0.003 (0.103)	Loss 0.383 (0.441)	Acc_Rate 0.792 (0.812)	
+2023-10-09 20:40:25,295 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:25,295 [trainer_ddp.py:253] INFO Epoch: [0][200/24400]	Time 0.547 (0.199)	Data 0.431 (0.104)	Loss 0.172 (0.434)	Acc_Rate 0.917 (0.814)	
+2023-10-09 20:40:27,110 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:27,110 [trainer_ddp.py:253] INFO Epoch: [0][210/24400]	Time 0.161 (0.199)	Data 0.003 (0.103)	Loss 0.131 (0.426)	Acc_Rate 0.958 (0.818)	
+2023-10-09 20:40:29,028 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:29,029 [trainer_ddp.py:253] INFO Epoch: [0][220/24400]	Time 0.520 (0.198)	Data 0.443 (0.103)	Loss 0.117 (0.417)	Acc_Rate 0.958 (0.822)	
+2023-10-09 20:40:30,572 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:30,573 [trainer_ddp.py:253] INFO Epoch: [0][230/24400]	Time 0.069 (0.196)	Data 0.003 (0.101)	Loss 0.183 (0.413)	Acc_Rate 1.000 (0.826)	
+2023-10-09 20:40:32,700 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:32,700 [trainer_ddp.py:253] INFO Epoch: [0][240/24400]	Time 0.564 (0.197)	Data 0.477 (0.103)	Loss 0.076 (0.405)	Acc_Rate 1.000 (0.829)	
+2023-10-09 20:40:34,354 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:34,354 [trainer_ddp.py:253] INFO Epoch: [0][250/24400]	Time 0.070 (0.196)	Data 0.003 (0.102)	Loss 0.324 (0.400)	Acc_Rate 0.875 (0.832)	
+2023-10-09 20:40:36,450 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:36,450 [trainer_ddp.py:253] INFO Epoch: [0][260/24400]	Time 0.442 (0.196)	Data 0.360 (0.102)	Loss 0.274 (0.396)	Acc_Rate 0.917 (0.833)	
+2023-10-09 20:40:38,162 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:38,163 [trainer_ddp.py:253] INFO Epoch: [0][270/24400]	Time 0.063 (0.195)	Data 0.003 (0.101)	Loss 0.067 (0.389)	Acc_Rate 1.000 (0.837)	
+2023-10-09 20:40:40,383 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:40,383 [trainer_ddp.py:253] INFO Epoch: [0][280/24400]	Time 0.444 (0.196)	Data 0.359 (0.102)	Loss 0.346 (0.388)	Acc_Rate 0.875 (0.837)	
+2023-10-09 20:40:42,075 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:40:42,075 [trainer_ddp.py:253] INFO Epoch: [0][290/24400]	Time 0.077 (0.195)	Data 0.003 (0.101)	Loss 0.103 (0.383)	Acc_Rate 0.958 (0.839)	
+2023-10-09 20:40:48,742 [train_ddp.py:122] INFO Configurations: Namespace(backbone='34', batch_size=8, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0,1', local_rank=0, logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 20:40:48,742 [train_ddp.py:128] INFO Random Seed: 1024
+2023-10-09 20:40:48,766 [distributed_c10d.py:217] INFO Added key: store_based_barrier_key:1 to store for rank: 0
+2023-10-09 20:40:58,772 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=3, worker_count=2, timeout=0:30:00)
+2023-10-09 20:41:08,778 [distributed_c10d.py:238] INFO Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=3, worker_count=2, timeout=0:30:00)
+2023-10-09 20:41:20,274 [train_ddp.py:122] INFO Configurations: Namespace(backbone='34', batch_size=8, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0', local_rank=0, logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/cars/train_list_cars.txt', vallist='filenames/cars/val_list_cars.txt', workers=8)
+2023-10-09 20:41:20,274 [train_ddp.py:128] INFO Random Seed: 1024
+2023-10-09 20:41:20,288 [distributed_c10d.py:217] INFO Added key: store_based_barrier_key:1 to store for rank: 0
+2023-10-09 20:41:20,289 [distributed_c10d.py:252] INFO Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+2023-10-09 20:41:20,289 [trainer_ddp.py:174] INFO >> Training with distributed parallel.............
+2023-10-09 20:41:20,289 [trainer_ddp.py:78] INFO Use 4 processes to load data...
+2023-10-09 20:41:25,907 [trainer_ddp.py:120] INFO Initial a new model...
+2023-10-09 20:41:25,909 [train_ddp.py:55] INFO round 0
+2023-10-09 20:41:25,909 [train_ddp.py:56] INFO num of epoches: 70
+2023-10-09 20:41:25,909 [train_ddp.py:57] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 20:41:25,910 [trainer_ddp.py:198] INFO learning rate of epoch 0: 0.000100.
+2023-10-09 20:41:27,822 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:27,822 [trainer_ddp.py:253] INFO Epoch: [0][0/24400]	Time 1.912 (1.912)	Data 1.460 (1.460)	Loss 1.127 (1.127)	Acc_Rate 0.167 (0.167)	
+2023-10-09 20:41:29,036 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:29,037 [trainer_ddp.py:253] INFO Epoch: [0][10/24400]	Time 0.271 (0.284)	Data 0.157 (0.156)	Loss 0.705 (0.939)	Acc_Rate 0.750 (0.511)	
+2023-10-09 20:41:30,757 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:30,757 [trainer_ddp.py:253] INFO Epoch: [0][20/24400]	Time 0.067 (0.231)	Data 0.003 (0.124)	Loss 0.753 (0.897)	Acc_Rate 0.583 (0.524)	
+2023-10-09 20:41:32,897 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:32,898 [trainer_ddp.py:253] INFO Epoch: [0][30/24400]	Time 0.168 (0.225)	Data 0.088 (0.126)	Loss 0.661 (0.844)	Acc_Rate 0.708 (0.558)	
+2023-10-09 20:41:34,621 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:34,621 [trainer_ddp.py:253] INFO Epoch: [0][40/24400]	Time 0.081 (0.212)	Data 0.003 (0.117)	Loss 0.583 (0.771)	Acc_Rate 0.792 (0.635)	
+2023-10-09 20:41:36,739 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:36,739 [trainer_ddp.py:253] INFO Epoch: [0][50/24400]	Time 0.192 (0.212)	Data 0.130 (0.121)	Loss 0.416 (0.719)	Acc_Rate 0.792 (0.665)	
+2023-10-09 20:41:38,542 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:38,542 [trainer_ddp.py:253] INFO Epoch: [0][60/24400]	Time 0.110 (0.207)	Data 0.003 (0.116)	Loss 0.291 (0.673)	Acc_Rate 0.917 (0.692)	
+2023-10-09 20:41:40,706 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:40,707 [trainer_ddp.py:253] INFO Epoch: [0][70/24400]	Time 0.387 (0.208)	Data 0.269 (0.118)	Loss 0.555 (0.643)	Acc_Rate 0.792 (0.709)	
+2023-10-09 20:41:42,449 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:42,449 [trainer_ddp.py:253] INFO Epoch: [0][80/24400]	Time 0.121 (0.204)	Data 0.003 (0.113)	Loss 0.264 (0.611)	Acc_Rate 0.917 (0.727)	
+2023-10-09 20:41:44,518 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:44,519 [trainer_ddp.py:253] INFO Epoch: [0][90/24400]	Time 0.322 (0.204)	Data 0.254 (0.114)	Loss 0.581 (0.585)	Acc_Rate 0.667 (0.740)	
+2023-10-09 20:41:46,316 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:41:46,316 [trainer_ddp.py:253] INFO Epoch: [0][100/24400]	Time 0.086 (0.202)	Data 0.003 (0.111)	Loss 0.199 (0.554)	Acc_Rate 1.000 (0.759)	
+2023-10-09 20:42:16,610 [train_ddp.py:122] INFO Configurations: Namespace(backbone='34', batch_size=8, cuda=True, datapath='/data1/liu/OrientationLearning', devices='0', local_rank=0, logFile='logs/34', lr=0.001, manualSeed=1024, net='simplenet', outf='models_saved/34', pretrain='none', save_logdir='experiments_logdir/34', showFreq=100, startEpoch=0, startRound=0, test_batch=1, trainlist='filenames/examples/train_example.txt', vallist='filenames/examples/val_example.txt', workers=8)
+2023-10-09 20:42:16,610 [train_ddp.py:128] INFO Random Seed: 1024
+2023-10-09 20:42:16,626 [distributed_c10d.py:217] INFO Added key: store_based_barrier_key:1 to store for rank: 0
+2023-10-09 20:42:16,626 [distributed_c10d.py:252] INFO Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+2023-10-09 20:42:16,627 [trainer_ddp.py:174] INFO >> Training with distributed parallel.............
+2023-10-09 20:42:16,627 [trainer_ddp.py:78] INFO Use 4 processes to load data...
+2023-10-09 20:42:21,664 [trainer_ddp.py:120] INFO Initial a new model...
+2023-10-09 20:42:21,666 [train_ddp.py:55] INFO round 0
+2023-10-09 20:42:21,666 [train_ddp.py:56] INFO num of epoches: 70
+2023-10-09 20:42:21,666 [train_ddp.py:57] INFO epoch	time_stamp	train_loss	train_EPE	EPE	lr
+2023-10-09 20:42:21,667 [trainer_ddp.py:198] INFO learning rate of epoch 0: 0.000100.
+2023-10-09 20:42:23,691 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:42:23,691 [trainer_ddp.py:253] INFO Epoch: [0][0/25]	Time 2.024 (2.024)	Data 1.332 (1.332)	Loss 1.060 (1.060)	Acc_Rate 0.458 (0.458)	
+2023-10-09 20:42:24,774 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:42:24,774 [trainer_ddp.py:253] INFO Epoch: [0][10/25]	Time 0.114 (0.282)	Data 0.003 (0.135)	Loss 0.894 (0.927)	Acc_Rate 0.500 (0.534)	
+2023-10-09 20:42:26,678 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:42:26,679 [trainer_ddp.py:253] INFO Epoch: [0][20/25]	Time 0.364 (0.239)	Data 0.254 (0.119)	Loss 0.544 (0.823)	Acc_Rate 0.917 (0.587)	
+2023-10-09 20:42:28,640 [trainer_ddp.py:295] INFO Test: [0/7]	 Time 0	 Acc 0.7083333730697632
+2023-10-09 20:42:29,642 [trainer_ddp.py:301] INFO  * ACC 76.000
+2023-10-09 20:42:29,852 [train_ddp.py:80] INFO Validation[epoch:0]: 2023-10-09 20:42:29	0.8046487665176392	0.6066666793823242	tensor(76., device='cuda:0')	0.0001
+2023-10-09 20:42:29,852 [train_ddp.py:81] INFO max acc from 0 epoch
+2023-10-09 20:42:29,852 [trainer_ddp.py:198] INFO learning rate of epoch 1: 0.000100.
+2023-10-09 20:42:31,095 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:42:31,096 [trainer_ddp.py:253] INFO Epoch: [1][0/25]	Time 1.243 (1.243)	Data 1.124 (1.124)	Loss 0.506 (0.506)	Acc_Rate 0.917 (0.917)	
+2023-10-09 20:42:32,862 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:42:32,862 [trainer_ddp.py:253] INFO Epoch: [1][10/25]	Time 0.075 (0.274)	Data 0.003 (0.177)	Loss 0.420 (0.493)	Acc_Rate 0.750 (0.830)	
+2023-10-09 20:42:34,918 [trainer_ddp.py:245] INFO this is round 0
+2023-10-09 20:42:34,919 [trainer_ddp.py:253] INFO Epoch: [1][20/25]	Time 0.485 (0.241)	Data 0.426 (0.157)	Loss 0.390 (0.488)	Acc_Rate 0.833 (0.831)	
+2023-10-09 20:42:36,870 [trainer_ddp.py:295] INFO Test: [0/7]	 Time 0	 Acc 0.9166666865348816
+2023-10-09 20:42:37,787 [trainer_ddp.py:301] INFO  * ACC 86.667
+2023-10-09 20:42:38,160 [train_ddp.py:80] INFO Validation[epoch:1]: 2023-10-09 20:42:38	0.4783057808876038	0.8433333492279053	tensor(86.6667, device='cuda:0')	0.0001
+2023-10-09 20:42:38,160 [train_ddp.py:81] INFO max acc from 1 epoch
+2023-10-09 20:42:38,162 [trainer_ddp.py:198] INFO learning rate of epoch 2: 0.000100.
