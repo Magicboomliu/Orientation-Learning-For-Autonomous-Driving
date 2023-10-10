@@ -54,6 +54,7 @@ class VerticleOrientationNet(nn.Module):
         
         last_feat = self.features[-1]
         out = F.avg_pool2d(last_feat, 2)
+        out = out.contiguous()
         out = out.view(-1, self.res_feat_chs * 7 * 7)
         
         out = self.regression_head(out)

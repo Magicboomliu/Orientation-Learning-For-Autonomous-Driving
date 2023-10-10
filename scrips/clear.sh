@@ -1,3 +1,4 @@
 cd ..
 rm -rf experiments_logdir
-rm -rf models_saved
+rm -rf pretrained_models
+rm -rf outputs_vis
