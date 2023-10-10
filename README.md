@@ -18,4 +18,5 @@ For trainining, we use:
 ```
 cd scripts 
 sh train.sh
+
 ```
